@@ -1,0 +1,20 @@
+{
+  "name": "femreact",
+  "version": "1.0.0",
+  "description": "Full react app, start to finish.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "test": "node test.js"
+  },
+  "author": "Adi Bakija",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^1.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0"
+  }
+}
