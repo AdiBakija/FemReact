@@ -4,17 +4,22 @@
   "description": "Full react app, start to finish.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint \"**/*.{js,jsx}\"",
-    "test": "node test.js"
+    "test": "",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html --port 8080"
   },
   "author": "Adi Bakija",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^1.15.3"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "eslint": "^5.10.0",
+    "eslint": "^5.3.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0"
+    "eslint-plugin-prettier": "^3.0.0",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2"
   }
 }
